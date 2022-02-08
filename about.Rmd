@@ -2,4 +2,7 @@
 title: "About Me"
 ---
 
-Why I am awesome.
+- __Name:__ James Jordan
+- __Occupation:__ Student
+- __Hobbies:__ Learning data analytics 
+
