@@ -2,5 +2,4 @@
 title: "James' Website"
 ---
 
-Best Website in DANL 310
-
+Hello, World!
