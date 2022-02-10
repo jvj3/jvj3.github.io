@@ -1,5 +1,5 @@
 ---
-title: "Personal Website"
+title: "James' Website"
 ---
 
 What's up DANL 310
