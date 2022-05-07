@@ -9,7 +9,9 @@ navbar:
       href: about.html
     - text: "Project"
       href: project.html
+    - text: "Resume"
+      href: cv.html
 output:
   html_document:
-    theme: default
+    theme: cerulean
     css: style.css

@@ -1,24 +1,36 @@
 ---
-title: "Team Project"
+title: "Business Analytics Competition 2022"
+author: 
+  - "James Jordan"
+  - "Jason Rappazzo<br><br>"
+date: "May 6, 2022 <br><br>"
+output:
+    html_document:
+      df_print: paged
+      toc: true
+      toc_depth: 2
+      toc_float: true
+      number_sections: true
+      highlight: espresso 
 ---
-Business Analytics Competition 2022
 
-Jason Rappazzo
+
+
 James Jordan
 
 April 14, 2022
 
 
-1 Project Overview
+# Project Overview
 For our project we have chosen to analyze government COVID-19 related data. As we all know, COVID-19 has impacted just about everyone around the world. Over the past two years, COVID-19 has filled hospitals worldwide and taken countless lives in the process. We want to look at the data to:
 
-Find trends in government responses in response to the pandemic.
+- Find trends in government responses in response to the pandemic.
 
-Discover factors that contribute to COVID-19 deaths.
+- Discover factors that contribute to COVID-19 deaths.
 
-Explore the reproductive rate of the virus.
+- Explore the reproductive rate of the virus.
 
-Look at how the pandemic impacted the growth rates of economies around the world.
+- Look at how the pandemic impacted the growth rates of economies around the world.
 
 
 

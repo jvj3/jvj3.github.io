@@ -8,7 +8,6 @@ output:
     toc_depth: 2
     toc_float: true
     number_sections: false
-    theme: united
     highlight: espresso
 ---
 
@@ -30,8 +29,8 @@ library(stringi)
 # install.packages("devtools")
 # install.packages("kableExtra")
 # remove.packages("kableExtra")
-remotes::install_github("mitchelloharawild/icons")
-devtools::install_github("haozhu233/kableExtra")
+# remotes::install_github("mitchelloharawild/icons")
+# devtools::install_github("haozhu233/kableExtra")
 
 # install.packages("fontawesome")
 library(fontawesome)
