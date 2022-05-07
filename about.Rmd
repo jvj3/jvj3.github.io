@@ -4,5 +4,5 @@ title: "About Me"
 
 - __Name:__ James Jordan
 - __Occupation:__ Student
-- __Hobbies:__ Learning data analytics 
+- __Hobbies:__ Learning Data Analytics 
 
