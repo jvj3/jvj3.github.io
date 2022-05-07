@@ -32,6 +32,14 @@ For our project we have chosen to analyze government COVID-19 related data. As w
 
 - Look at how the pandemic impacted the growth rates of economies around the world.
 
+#Data
+For our data analysis, we are utilizing two large datasets. The first is provided by Oxford titled Oxford COVID Government Response Variables. The second dataset is provided by Bloomberg, for which they have created resiliency scores for the 53 top economies in the world.
+
+On top of these two main datasets, we will also be utilizing GDP growth rate data as well as Google COVID-19 Community Mobility Report to aid in our regression and analysis process.
+
+
+
+
 
 
 
