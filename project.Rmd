@@ -48,6 +48,7 @@ rmarkdown::paged_table(oxford)
 ```
 
 ```{r}
+#Path name for the dataset
 country_info <- "https://covid.ourworldindata.org/data/owid-covid-data.csv"
 
 
