@@ -38,6 +38,14 @@ For our data analysis, we are utilizing two large datasets. The first is provide
 On top of these two main datasets, we will also be utilizing GDP growth rate data as well as Google COVID-19 Community Mobility Report to aid in our regression and analysis process.
 
 
+```{r}
+oxford <- "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv"
+
+oxford <- read_csv(oxford)
+oxford <- rename(oxford, country = CountryName)
+
+rmarkdown::paged_table(oxford)
+```
 
 
 
