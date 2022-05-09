@@ -457,10 +457,10 @@ div.tocify {
 <a class="sourceLine" id="cb1-2" data-line-number="2"></a>
 <a class="sourceLine" id="cb1-3" data-line-number="3">oxford &lt;-<span class="st"> </span><span class="kw">read_csv</span>(oxford)</a></code></pre></div>
 <pre><code>## Rows: 290916 Columns: 61
-## ── Column specification ───────────────────────────────────────────────────────────────────────────
+## ── Column specification ───────────────────────────────────────────────
 ## Delimiter: &quot;,&quot;
-## chr  (7): CountryName, CountryCode, RegionName, RegionCode, Jurisdiction, V2B_Vaccine age eligi...
-## dbl (53): Date, C1_School closing, C1_Flag, C2_Workplace closing, C2_Flag, C3_Cancel public eve...
+## chr  (7): CountryName, CountryCode, RegionName, RegionCode, Jurisdi...
+## dbl (53): Date, C1_School closing, C1_Flag, C2_Workplace closing, C...
 ## lgl  (1): M1_Wildcard
 ## 
 ## ℹ Use `spec()` to retrieve the full column specification for this data.
@@ -480,10 +480,10 @@ div.tocify {
 <a class="sourceLine" id="cb4-5" data-line-number="5"><span class="co">#Read csv file</span></a>
 <a class="sourceLine" id="cb4-6" data-line-number="6">country_info &lt;-<span class="st"> </span><span class="kw">read_csv</span>(country_info)</a></code></pre></div>
 <pre><code>## Rows: 184751 Columns: 67
-## ── Column specification ───────────────────────────────────────────────────────────────────────────
+## ── Column specification ───────────────────────────────────────────────
 ## Delimiter: &quot;,&quot;
 ## chr   (4): iso_code, continent, location, tests_units
-## dbl  (62): total_cases, new_cases, new_cases_smoothed, total_deaths, new_deaths, new_deaths_smo...
+## dbl  (62): total_cases, new_cases, new_cases_smoothed, total_deaths...
 ## date  (1): date
 ## 
 ## ℹ Use `spec()` to retrieve the full column specification for this data.
@@ -506,6 +506,62 @@ div.tocify {
 <p>-The second regression model’s dependent variable is the reproductive rate.</p>
 <p>-The third regression involves the economic impact and our dependent variable will be changes in quarterly GDP.</p>
 <p>-The unsupervised learning method will be performed on the Bloomberg dataset to find countries who are similar to each other in their government response to the pandemic.</p>
+</div>
+<div id="visualizations" class="section level2">
+<h2><span class="header-section-number">1.3</span> Visualizations</h2>
+<p>We are going to make visualizations using ggplot, plotly, and others to increase the readability of our findings. It is important to become educated on the factors that affect covid deaths in the event another global pandemic becomes present. We hope to display trends that may not be apparently obvious in the hopes that this will aid in the current pandemic and future health problems to come.</p>
+</div>
+</div>
+<div id="oxford" class="section level1">
+<h1><span class="header-section-number">2</span> Oxford</h1>
+<div id="overview" class="section level2">
+<h2><span class="header-section-number">2.1</span> Overview</h2>
+<p>-Oxford’s goal is to track COVID-19 policy data consistently and use it to compare policy responses to COVID-19.</p>
+<p>-They collect data on 180 different countries and 23 different indicators.</p>
+<p>-The data collection began on January 1st, 2020 which marks the very early stages of the global pandemic.</p>
+</div>
+<div id="inidicators" class="section level2">
+<h2><span class="header-section-number">2.2</span> Inidicators</h2>
+<p>-There are 21 live indicators that are imputed into the dataset daily.</p>
+<p>-Containment and Closure Policies: Marked as C1-C8 on the dataset.</p>
+<p>-Economic Policies: E1-E4</p>
+<p>-Health System Policies: H1-H8</p>
+<p>-Vaccine Policies: V1-V4</p>
+</div>
+<div id="data-types" class="section level2">
+<h2><span class="header-section-number">2.3</span> Data Types</h2>
+<p>-There are five kinds of data utilized in the dataset.</p>
+<p>-Ordinal: On a simple scale of severity.</p>
+<p>-Numeric: Specific number typically in U.S. dollars.</p>
+<p>-Text: An open ended free response.</p>
+<p>-Categorical: Range of eligible options to select and occasionally rank.</p>
+<p>-Binary: Present (1) or absent (0).</p>
+</div>
+<div id="policy-indices" class="section level2">
+<h2><span class="header-section-number">2.4</span> Policy Indices</h2>
+<p>-Overall Government Response Index: Calculated using ordinal indicators</p>
+<p>-Containment and Health Index: Combines lockdown restrictions and closure measures with health variables such as testing policy, contact tracing, and others. Calculated using all ordinal containment and closure policy indicators and health system policy indicators.</p>
+<p>-Stringency Index: Measures the strictness of lockdown style. Calculated using all ordinal containment and closure policy indicators, plus an indicator recording public information campaigns.</p>
+<p>-Economic Support Index: Measures income support and debt relief. Calculated using all ordinal economic policy indicators</p>
+<p>-Risk of Openness Index: Based on the recommendations set out by the World Health Organization of measures that should be put in place before COVID-19 response policies can be safely relaxed.</p>
+</div>
+<div id="calculation-of-policy-indices" class="section level2">
+<h2><span class="header-section-number">2.5</span> Calculation of Policy Indices</h2>
+<p>-Policy indices are averages of the individual component indicators.</p>
+<p>-index=1k∑kj=1Ij</p>
+<p>-Where k is the number of component indicators in an index and Ij is the sub-index score for an individual indicator.</p>
+</div>
+<div id="relation-between-national-and-sub-national-data" class="section level2">
+<h2><span class="header-section-number">2.6</span> Relation between National and Sub National Data</h2>
+<p>So far, Oxford has incorporated data for Brazilian states, Canadian provinces and territories, Chinese provinces, UK developed nations, and U.S. States.</p>
+<p>-3 main usage for the OxCGRT data:</p>
+<ul>
+<li><p>1.Describe all government responses relevant to a certain country</p></li>
+<li><p>2.Describe policies put in place by a given level and lower levels of government</p></li>
+<li><ol start="3" style="list-style-type: decimal">
+<li>Compare government responses across different levels of government</li>
+</ol></li>
+</ul>
 <p>```</p>
 </div>
 </div>

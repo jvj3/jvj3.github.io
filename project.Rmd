@@ -75,6 +75,98 @@ rmarkdown::paged_table(country_info)
 -The unsupervised learning method will be performed on the Bloomberg dataset to find countries who are similar to each other in their government response to the pandemic.
 
 
+## Visualizations
+
+We are going to make visualizations using ggplot, plotly, and others to increase the readability of our findings. It is important to become educated on the factors that affect covid deaths in the event another global pandemic becomes present. We hope to display trends that may not be apparently obvious in the hopes that this will aid in the current pandemic and future health problems to come.
+
+# Oxford
+
+## Overview
+
+-Oxford’s goal is to track COVID-19 policy data consistently and use it to compare policy responses to COVID-19.
+
+-They collect data on 180 different countries and 23 different indicators.
+
+-The data collection began on January 1st, 2020 which marks the very early stages of the global pandemic.
+
+## Inidicators
+
+-There are 21 live indicators that are imputed into the dataset daily.
+
+-Containment and Closure Policies: Marked as C1-C8 on the dataset.
+
+-Economic Policies: E1-E4
+
+-Health System Policies: H1-H8
+
+-Vaccine Policies: V1-V4
+
+## Data Types
+
+-There are five kinds of data utilized in the dataset.
+
+-Ordinal: On a simple scale of severity.
+
+-Numeric: Specific number typically in U.S. dollars.
+
+-Text: An open ended free response.
+
+-Categorical: Range of eligible options to select and occasionally rank.
+
+-Binary: Present (1) or absent (0).
+
+## Policy Indices
+
+-Overall Government Response Index: Calculated using ordinal indicators
+
+-Containment and Health Index: Combines lockdown restrictions and closure measures with health variables such as testing policy, contact tracing, and others. Calculated using all ordinal containment and closure policy indicators and health system policy indicators.
+
+-Stringency Index: Measures the strictness of lockdown style. Calculated using all ordinal containment and closure policy indicators, plus an indicator recording public information campaigns.
+
+-Economic Support Index: Measures income support and debt relief. Calculated using all ordinal economic policy indicators
+
+-Risk of Openness Index: Based on the recommendations set out by the World Health Organization of measures that should be put in place before COVID-19 response policies can be safely relaxed.
+
+
+## Calculation of Policy Indices
+
+-Policy indices are averages of the individual component indicators.
+
+-index=1k∑kj=1Ij
+
+-Where k is the number of component indicators in an index and Ij is the sub-index score for an individual indicator.
+
+## Relation between National and Sub National Data
+
+So far, Oxford has incorporated data for Brazilian states, Canadian provinces and territories, Chinese provinces, UK developed nations, and U.S. States.
+
+-3 main usage for the OxCGRT data:
+
+- 1.Describe all government responses relevant to a certain country
+
+- 2.Describe policies put in place by a given level and lower levels of government
+
+- 3. Compare government responses across different levels of government
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -87,3 +179,4 @@ rmarkdown::paged_table(country_info)
 ```
 
 
+ 
