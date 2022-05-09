@@ -11,7 +11,10 @@ navbar:
       href: project.html
     - text: "Resume"
       href: cv.html
+    - text: "Homework"
+      href: homework.html
 output:
   html_document:
     theme: cerulean
     css: style.css
+    
