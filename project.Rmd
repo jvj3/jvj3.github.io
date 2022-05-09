@@ -47,6 +47,18 @@ oxford <- rename(oxford, country = CountryName)
 rmarkdown::paged_table(oxford)
 ```
 
+```{r}
+country_info <- "https://covid.ourworldindata.org/data/owid-covid-data.csv"
+
+
+#Read csv file
+country_info <- read_csv(country_info)
+country_info <- country_info %>% 
+  rename(country = location ) %>% 
+  select(country, everything())
+
+rmarkdown::paged_table(country_info)
+```
 
 
 
