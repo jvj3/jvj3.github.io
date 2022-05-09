@@ -63,6 +63,19 @@ rmarkdown::paged_table(country_info)
 
 
 
+## Modeling
+-We plan to build multiple linear regression models and one unsupervised learning method utilizing clustering.
+
+-The first regression model’s dependent variable will be COVID-19 deaths per capita.
+
+-The second regression model’s dependent variable is the reproductive rate.
+
+-The third regression involves the economic impact and our dependent variable will be changes in quarterly GDP.
+
+-The unsupervised learning method will be performed on the Bloomberg dataset to find countries who are similar to each other in their government response to the pandemic.
+
+
+
 
 
 
