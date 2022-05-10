@@ -36,8 +36,7 @@ library(stringi)
 library(fontawesome)
 
 
-#### publications #####
-publications <- read_csv("_content/publications.csv")
+
 
 #### all other entries #####
 cv_entries <- read_csv("_content/cv_entries.csv") %>%
