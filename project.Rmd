@@ -151,7 +151,34 @@ So far, Oxford has incorporated data for Brazilian states, Canadian provinces an
 
 # Bloomberg
 
-## Bloomberg Summary Statistics
+## Bloomberg Overview
+
+Bloomberg created a "Covid Resilience Ranking" system for the 53 largest economies in the world
+
+Each country's rank is based on their success with controlling the virus with the least amount of social economic disruptions
+
+Data has been collected since June 2021
+
+## Resilience Ranking Indicies
+
+-There are 11 indicies considered when ranking each Country
+
+- There are 3 groups of Indicies, including Reopening, COVID Status, and Quality of Life
+
+### Reopening Indicies
+-Vaccine Doses Per 100
+-Lockdown Severity
+-Flight Capacity
+-Vaccinated Travel Routes
+
+### COVID status Indicies
+-1-Month Cases per 100k
+-3-Month Case Fatality Rate
+-Total Deaths Per 1M
+
+
+
+
 
 
 
