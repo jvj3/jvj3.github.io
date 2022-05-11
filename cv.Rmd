@@ -82,7 +82,7 @@ Here is my [curriculum vitae `r fa("fas fa-file-pdf", fill = "red")`](chose_cv.p
 
 
 ::: {}
-![](IMG_0378.JPG){width=75%}
+![](/Users/jamesjordan/Desktop/jvj3.github.io/_content/1_Squinting_JR_Smith.jpeg){width=75%}
 :::
 
 ::::
