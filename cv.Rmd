@@ -223,10 +223,10 @@ cv_entries %>%
  
 <br>
 
-# Grants and funding
+# Extracurricular Activities
 ```{r}
 cv_entries %>% 
-  filter(type == 'minor_grants' | type == 'major_grants',
+  filter(type == 'Extra' | type == 'Extra',
          is.na(exclude)) %>%
   filter(!(website == "n") | is.na(website)) %>% 
   mutate(what = if_else(
