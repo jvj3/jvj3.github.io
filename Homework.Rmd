@@ -20,7 +20,7 @@ x <- ggplot(imf_growth, aes(x= country, y= gy, fill= country))+
   coord_flip()+
   transition_states(quarter, transition_length = 3, state_length =2) +
   labs(title = "Growth Rate of GDP per Worker: {closest_state}", x= "", y= "")+
-  theme_minimal()+ theme(legend.position = "none")
+  theme_dark()+ theme(legend.position = "none")
 
 x
 ```

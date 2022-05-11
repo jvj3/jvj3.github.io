@@ -314,7 +314,7 @@ x &lt;- ggplot(imf_growth, aes(x= country, y= gy, fill= country))+
   coord_flip()+
   transition_states(quarter, transition_length = 3, state_length =2) +
   labs(title = &quot;Growth Rate of GDP per Worker: {closest_state}&quot;, x= &quot;&quot;, y= &quot;&quot;)+
-  theme_minimal()+ theme(legend.position = &quot;none&quot;)
+  theme_dark()+ theme(legend.position = &quot;none&quot;)
 
 x</code></pre>
 <p><img src="Homework_files/figure-html/unnamed-chunk-1-1.gif" /><!-- --></p>
