@@ -4,17 +4,24 @@ output: html_document
 ---
 library(gganimate)
 ```{r}
+library(tidyverse)
+library(ggplot2)
+library(gganimate)
+
+
 imf_growth <- read_csv(url('https://bcdanl.github.io/data/imf_growth_quarterly.csv'))
 
 imf_growth <- imf_growth %>% 
-  mutate(gy = round(gy, digits = 3))
+  mutate(gy = round(gy, digits = 2))
 
-p <- ggplot(imf_growth, aes(x= country, y= gy, fill= country))+
-  geom_col()+ geom_text(aes(label=as.character(gy), hjust = -0.2))+ coord_flip()
-fig_1 <- p + transition_states(quarter, transition_length = 1, state_length =1) +
-  labs(title = "Growth Rate of GDP per Worker: {closest_state}", x = "", y= "")+
+x <- ggplot(imf_growth, aes(x= country, y= gy, fill= country))+
+  geom_col()+ 
+  geom_text(aes(label=as.character(gy), hjust = -0.2))+
+  coord_flip()+
+  transition_states(quarter, transition_length = 3, state_length =2) +
+  labs(title = "Growth Rate of GDP per Worker: {closest_state}", x= "", y= "")+
   theme_minimal()+ theme(legend.position = "none")
 
-fig_1
+x
 ```
 
