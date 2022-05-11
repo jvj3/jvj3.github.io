@@ -1,5 +1,5 @@
 ---
-title: "Résumé<br><br>"
+title: "Resumé<br><br>"
 menu: main
 output: 
   html_document:
@@ -204,7 +204,7 @@ cv_entries %>%
 
 <br>
 
-# Hornors & Awards
+# Honors & Awards
 ```{r}
 cv_entries %>% 
   filter(type == 'awards') %>%

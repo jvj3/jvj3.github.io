@@ -1,19 +1,13 @@
 type,exclude,date,date_end,what,what_translation,institution,department,where,additional_info,additional_info2,url,slides,video,short_cv,order,academic,professional_2_page,website,one_column_paged,brief_no_pubs,humanities,humanities_description
 current_positions,NA,2022-06-01,present,Administrative Intern at Capital Communications Federal Credit Union,NA,NA,NA,"Albany, New York",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-education,NA,2019-08-26,Present,Majoring in Business Administration,NA,NA,NA,SUNY Geneseo,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-education,NA,2019-08-26,Present,Minoring in Data Analytics ,NA,NA,NA,SUNY Geneseo ,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+education,NA,2019-08-26,Present,Majoring in Business Administration,NA,NA,NA,SUNY Geneseo,Major GPA: 3.91,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+education,NA,2019-08-26,Present,Minoring in Data Analytics ,NA,NA,NA,SUNY Geneseo ,Cumulative GPA: 3.87,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 education,NA,2015-09-10,2019-06-10,Shenendehowa High School,NA,NA,NA,"Clifton Park, New York",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-awards,NA,2019-09-01,NA,H. A. True Chair in Petroleum and Economics Scholarship,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-awards,NA,2019-09-01,NA,John S. Bugas Economics Scholarship,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-awards,NA,2018-09-01,NA,Ralph d'Arge Scholarship in Natural Resource Economics and Finance,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-awards,NA,2018-09-01,NA,McMurry Excellence Fund,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-awards,NA,2018-09-01,NA,Joseph C. and Katherine A. Drew Scholarship,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-awards,NA,2012-02-21,NA,Highest Grade Point Average in Economics Class of 2012,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-awards,NA,2010-12-15,2011-12-15,University Tutor of the Excellent Tutoring Team,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-awards,NA,2006-06-21,2011-08-25,Merit-based Scholarships,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-minor_grants,NA,2020-05-15,NA,Summer Augmentation Scholarship for Ph.D. Dissertation Research,NA,NA,NA,University of Wyoming,Conducted online due to the corona pandemic,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-minor_grants,NA,2019-01-02,NA,Graduate Student Conference Travel Funding,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-minor_grants,NA,2019-01-02,NA,Graduate Student Conference Travel Funding,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+awards,NA,2020-09-01,NA,Beta Gamma Sigma Business Honor Society ,NA,NA,NA,SUNY Geneseo,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+awards,NA,2020-09-01,NA,Phi Eta Sigma National Honor Society ,NA,NA,NA,SUNY Geneseo ,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+awards,NA,2020-09-01,NA,Golden Key International Honor Society,NA,NA,NA,SUNY Geneseo ,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+awards,NA,2020-09-01,NA,Presidents List Fall ’20 and Spring ‘21,NA,NA,NA,SUNY Geneseo ,Awarded to those with a 4.0 GPA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+awards,NA,2018-09-01,NA,Dean’s List Spring ’20 and Fall ‘21,NA,NA,NA,SUNY Geneseo,Awarded to those with a 3.5 or higher GPA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 service,NA,2021-08-11,present,Data Analytics Curriculumn Meetings,NA,NA,NA,"School of Business, SUNY Geneseo",NA,NA,https://transparentstatistics.org,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 poster,NA,2018-06-18,NA,What the Anti-Distraction Market Tells Us About Digital Technology and Self-Regulation,NA,University of Oxford,Oxford Internet Institute,[Connected Life Conference 2018](https://connectedlife.oii.ox.ac.uk/past-conferences/conference-life-2018/),NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 poster,NA,2018-04-21,NA,A Cognitive Design Space for Supporting Self-Regulation of ICT Use,NA,2018 CHI Conference on Human Factors in Computing Systems,NA,[3rd Symposium on Computing and Mental Health](https://dl.acm.org/doi/10.1145/3170427.3170665),"Montreal, Canada",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
@@ -27,9 +21,10 @@ prof-act,NA,2017-02-01,2017-06-01,[Leading for Impact](https://www.sbs.ox.ac.uk/
 media,NA,2021-04-27,NA,"Interviewed on the Danish radio program 'Kortsluttet' (*short-circuited*) on P1, in the episode ['Død over digitale distraktioner' (*Death to digital distractions*)](https://www.dr.dk/radio/p1/kortsluttet/kortsluttet-62?fbclid=iwar2cnu58gu19ym6m0zv48z2tcwqni56xsxmiszkkuqne9efjqwg8w4zgylw)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 media,NA,2018-10-23,NA,"Our paper ""Third Party Tracking in the Mobile Ecosystem"" [C2] covered in the [Financial Times](https://ig.ft.com/mobile-app-data-trackers/), [BBC](https://www.bbc.co.uk/news/technology-45952466), [The Times](https://www.thetimes.co.uk/article/personal-data-harvesting-by-mobile-phone-apps-is-out-of-control-pb2m2kwkj), [Business Insider](https://www.businessinsider.com/google-and-facebook-big-data-apps-oxford-study-finds-2018-10?r=UK&IR=T), and more",NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 position,NA,2020-07-01,present,Visiting researcher,NA,NA,NA,"Dept. of Computer Science, University of Copenhagen",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-work,NA,2020-02-01,present,Lecturer in Data Analytics,NA,NA,NA,"[School of Business, SUNY Geneseo](https://www.geneseo.edu/business/)",I teach data analytics for undergraduate students.,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,y,NA,NA
-technical,NA,NA,NA,"Programming, data analysis and visualisation",NA,NA,NA,NA,"in R (tidyverse), Python, and D3.js",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-technical,NA,NA,NA,Reproducible research,NA,NA,NA,NA,"with R Markdown (bookdown, xaringan, pagedown) + LaTeX + HTML",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+work,NA,2021-06-01,present,Self Employed Swim Instructor,NA,NA,NA,"Clifton Park, New York","Built client base to teach necessary and appropriate swimming skills, worked with children of all ages",NA,NA,NA,NA,NA,NA,NA,y,NA,NA,y,NA,NA
+work,NA,2016-05-02,present,Shenendehowa Aquatic Center Lifeguard,NA,NA,NA,"Clifton Park, New York","Red Cross Certified LifeGuard, First AID and AED certified.",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+work,NA,2021-03-01,2021-08-01,Knolls Swim Team Head Coach,NA,NA,NA,"Clifton Park, New York",Coached and handled logistics for swimmers age 5 to 18,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+technical,NA,NA,NA,Reproducible research,NA,NA,NA,NA,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 technical,NA,NA,NA,Web development,NA,NA,NA,NA,"(HTML, CSS, JavaScript, Hugo, blogdown, Jekyll, GitHub Pages, Netlify)",NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 volunteering,NA,2017-02-01,2019-02-01,Computer Science Ambassador,NA,NA,NA,"Dept. of Computer Science, University of Oxford",I gave regular talks about my group's and my personal research to 14-18 year old students from schools in the UK visiting the Dept. of Computer Science,NA,NA,NA,NA,NA,2,NA,y,NA,NA,NA,NA,NA
 volunteering,NA,2017-04-30,present,Founding Band Member,NA,NA,NA,[The Karaoke Collective](https://karaokecollective.com),"Inventor, MC and drummer; the KC is a group of seasoned musicians in Oxford and London where we blend the fun of karaoke with the magic of a live band.",NA,NA,NA,NA,NA,1,n,y,NA,NA,NA,NA,NA
