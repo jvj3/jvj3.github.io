@@ -1,10 +1,8 @@
 type,exclude,date,date_end,what,what_translation,institution,department,where,additional_info,additional_info2,url,slides,video,short_cv,order,academic,professional_2_page,website,one_column_paged,brief_no_pubs,humanities,humanities_description
 current_positions,NA,2022-06-01,present,Administrative Intern at Capital Communications Federal Credit Union,NA,NA,NA,"Albany, New York",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-education,NA,2016-08-26,2021-08-13,Majoring in Business Administration,NA,NA,NA,University of Wyoming,Supervisors: [Chuck Mason](http://www.uwyo.edu/economics/faculty-staff/charles-mason/) and [Thorsten Janus](http://www.uwyo.edu/economics/faculty-staff/thorsten-janus/),Dissertaion: Essays in Political Economy,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-education,NA,2014-08-21,2015-12-10,M.Sc. in Economics,NA,NA,NA,Arizona State University,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-education,NA,2012-08-24,2014-05-22,M.A. in Economics,NA,NA,NA,SUNY Stony Brook,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-education,NA,2006-02-27,2012-02-21,B.Sc. in Applied Mathematics ,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
-education,NA,2006-02-27,2012-02-21,B.A. in Economics,NA,NA,NA,"Hanyang University at Ansan, South Korea",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+education,NA,2019-08-26,Present,Majoring in Business Administration,NA,NA,NA,SUNY Geneseo,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+education,NA,2019-08-26,Present,Minoring in Data Analytics ,NA,NA,NA,SUNY Geneseo ,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
+education,NA,2015-09-10,2019-06-10,Shenendehowa High School,NA,NA,NA,"Clifton Park, New York",NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 awards,NA,2019-09-01,NA,H. A. True Chair in Petroleum and Economics Scholarship,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 awards,NA,2019-09-01,NA,John S. Bugas Economics Scholarship,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
 awards,NA,2018-09-01,NA,Ralph d'Arge Scholarship in Natural Resource Economics and Finance,NA,NA,NA,University of Wyoming,NA,NA,NA,NA,NA,y,NA,NA,NA,NA,NA,NA,NA,NA
