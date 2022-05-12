@@ -12,7 +12,7 @@ navbar:
     - text: "Resume"
       href: cv.html
     - text: "Homework"
-      href: homework.html
+      href: Homework.html
     - text: "BAC Slides"
       href: bac2022_slides/suny_geneseo_bac2022_v2/suny_geneseo_bac2022_v2.html
 output:
