@@ -82,7 +82,7 @@ Here is my [resume `r fa("fas fa-file-pdf", fill = "red")`](chose_cv.pdf).
 
 
 ::: {}
-![](_content/1_Squinting_JR_Smith.jpeg){width=75%}
+![](https://raw.githubusercontent.com/jvj3/jvj3.github.io/master/_content/1_Squinting_JR_Smith.jpeg){width=75%}
 :::
 
 ::::
