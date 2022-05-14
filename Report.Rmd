@@ -80,9 +80,76 @@ Bloomberg created resiliency rankings for the 53 largest economies in the world.
 
 **Quality of Life Group:** Community Mobility, 2022 GDP Growth Forecast, Universal Healthcare Coverage, Human Development Index.
 
-### Ranking Mehthod
+### Ranking Method
 
 Bloomberg used the "Max-Min" method where a score of 100 indicates the best performance, while 0 indicates the worst. The final score was then determined by averaging each country's performances across all 12 indicators with equal weight.
+
+# Conceptual Framework
+
+## Variation in Government Response
+
+![](/Users/jamesjordan/Desktop/jvj3.github.io/trend_strengency.png)
+
+The graphs shown above are representative of government stringency. The Gray lines represent each individual country’s government stringencies, and the blue is the trend line for the entire continent. As you can see, Africa, the Americas, and Asia all had similar negative trends regarding stringency. Europe did not follow this trend, as stringency fluctuated greatly over time. In Oceania, government stringency has steadily increased since late 2021 going into 2022.
+
+
+![](/Users/jamesjordan/Desktop/jvj3.github.io/trend_rep_rate.png)
+
+We grouped the data by continent to emphasize the differences in reproduction rate around the world as the pandemic went on. We can see, for example, when comparing the Americas to Asia in January of 2022 the reproduction rate in Asia was much higher than that of America. This can be due to many different factors, but it may be due to level of government trust or differences in policy.
+
+![](/Users/jamesjordan/Desktop/jvj3.github.io/trend_econ_support.png)
+
+Above we see the Economic support overtime, again with the gray representing individual country's results, and the blue line repreenting the trend for the entire continent. While there were no significant findings, it is worth noting that Africa had the least amount of economic support by a substantial amount.
+
+
+# Models
+
+## Clustering Using Principal Component Analysis
+
+We utilized clustering analysis to visualize Bloomberg's data. We did this in order to discover governments that had similar responses. We used **Principal Component Analysis** to characterize twelve Bloomberg indices into the two PCs that best explain the variance of the bloomberg indices.
+
+## Reproduction Rate Linear Regression
+
+
+## Death per Capita Linear Regression
+
+
+## Description of Government Policy Variables
+
+Keep in mind that the variables with the "lag2" prefix are lagged 1 week for the reproduction rate linear regression and 1 month for the death per capita regression.
+
+We chose to use 1 week lagged variables to account for a possible delay in the ever changing reproduction rate and account for the incubation period of the virus. We chose 1 month lagged variables for the time it takes for policies to be implemented as well as the time it takes for the death per capita rate to change.
+
+Please not that all variables with the Flag suffix are used to account for differences in policy characteristics. The flag is similar to a dummy variable with different characteristics depending on the particular policy.
+
+**lag2_StringencyIndex:** Measures the strictness of lockdown style. It is calculated using all ordinal containment and closure policy indicators, plus an indicator recording public information campaigns.
+
+**lag2_E1_Income support:** Recorded if the government is providing direct cash payments to people who lose their jobs or cannot work. This only includes payments to firms if explicitly linked to payroll or salaries. It is calculated on an ordinal scale. 0- No income support. 1- The government is replacing less than 50% of lost salary (or if a flat sum, it is less than 50% median salary). 2- The government is replacing 50% or more of lost salary (or if a flat sum, it is greater than 50% median salary).
+
+**Lag2_E1_Flag:** Binary flag for sectoral scope. 0- formal sector workers only or informal sector workers only. 1- all workers.
+
+**lag2_E2_Debt/contract relief:** Record if the government is freezing financial obligations for households (eg stopping loan repayments, preventing services like water from stopping, or banning evictions). It is calculated on an ordinal scale. 0- no debt/contract relief. 1- narrow relief, specific to one kind of contract. 2- broad debt/contract relief
+
+**lag2_H2_Testing policy:** Records policies about testing for current infection (PCR tests) not testing for immunity (antibody test). It is calculated on an ordinal scale. 0- no testing policy. 1- only those who both (a) have symptoms AND (b) meet specific criteria (eg key workers, admitted to hospital, came into contact with a known case, returned from overseas). 2- testing of anyone showing Covid-19 symptoms. 3- open public testing (eg “drive through” testing available to asymptomatic people).
+
+**lag2_H3_Contact tracing:** Records government policy on contact tracing after a positive diagnosis. It is calculated on an ordinal scale. 0- no contact tracing. 1- limited contact tracing; not done for all cases. 2- comprehensive contact tracing; done for all identified cases.
+
+**lag2_H4_Emergency investment in healthcare:** Announced short term spending on healthcare system, eg hospitals, masks, etc. Note: only record amount additional to previously announced spending. Record monetary value in USD. 0- no new spending that day.
+
+**lag2_H5_Investment in vaccines:** Announced public spending on Covid-19 vaccine development. Note: only record amount additional to previously announced spending. Record monetary value in USD. 0- no new spending that day.
+
+**lag2_H6_Facial Coverings:** Record policies on the use of facial coverings outside the home. It is calculated on an ordinal scale. 0- No policy. 1- Recommended. 2- Required in some specified shared/public spaces outside the home with other people present, or some situations when social distancing not possible. 3- Required in all shared/public spaces outside the home with other people present or all situations when social distancing not possible. 4- Required outside the home at all times regardless of location or presence of other people.
+
+**lag2_H6_Flag:** Binary flag for geographic scope. 0- Targeted. 1- General.
+
+**lag2_H7_Vaccination policy:** Record policies for vaccine delivery for different groups. It is measured on an ordinal scale. 0- No availability. 1- Availability for ONE of following: key workers/ clinically vulnerable groups (non elderly) / elderly groups. 2- Availability for TWO of following: key workers/ clinically vulnerable groups (non elderly) / elderly groups. 3- Availability for ALL of following: key workers/ clinically vulnerable groups (non elderly) / elderly groups. 4- Availability for all three plus partial additional availability (select broad groups/ages). 5- Universal availability
+
+**lag2_H7_Flag:** Binary flag for cost. 0- At cost to individual (or funded by NGO, insurance, or partially government funded). 1- No or minimal cost to individual (government funded or subsidized).
+
+**lag2_H7_Vaccination policy:**lag2_Hy_Flag MobilityIndex: The Community Google Mobility Reports show movement trends by region, across different categories of places.
+
+
+
 
 
 
