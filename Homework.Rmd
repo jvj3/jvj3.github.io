@@ -3,7 +3,7 @@ title: "Homework.Rmd"
 output: html_document
 ---
 library(gganimate)
-```{r}
+```{r, warning = FALSE, echo=FALSE, message=FALSE}
 library(tidyverse)
 library(ggplot2)
 library(gganimate)

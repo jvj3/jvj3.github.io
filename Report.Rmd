@@ -110,6 +110,18 @@ We utilized clustering analysis to visualize Bloomberg's data. We did this in or
 
 ## Reproduction Rate Linear Regression
 
+ReproductionRateit=β0+β1∗GovernmentPoliciesit+υi+λt+ϵit
+
+
+
+**Where:**
+
+υt=Country Fixed Effect
+
+λt=Daily Fixed Effect
+
+ϵt=Error Term
+
 
 ## Death per Capita Linear Regression
 
@@ -148,11 +160,32 @@ Please not that all variables with the Flag suffix are used to account for diffe
 
 **lag2_H7_Vaccination policy:**lag2_Hy_Flag MobilityIndex: The Community Google Mobility Reports show movement trends by region, across different categories of places.
 
+# Results
+
+## Clustering Analysis Results 
+
+![](/Users/jamesjordan/Desktop/jvj3.github.io/clustering_pc.png)
+
+This is the result of clustering on the Bloomberg Data. The X axis is representative of PC1, and the Y axis is representative of PC2
+
+The value of PC1 is negatively correlated with vaccine doses per 100, and healthcare coverage. PC1 is positively correlated with 3-month case fatality rate.
+
+PC2 is negatively correlated with flight capacity, and vaccinates travel roots, while it is positively correlated with 2021 GDP Growth Forecast.
+
+Cluster 5 shows countries who had low vaccine doses per 100 and healthcare coverage, which is shown by PC1, and had moderate GDP growth forecast, which is shown by PC2
 
 
+## Linear Regression Reults
+
+### Reproduction Rate Results
+
+![](/Users/jamesjordan/Desktop/jvj3.github.io/table_reproduction.png)
 
 
+![](/Users/jamesjordan/Desktop/jvj3.github.io/fig_rep_beta.png)
 
+## Death Per Capita Results
 
+![](/Users/jamesjordan/Desktop/jvj3.github.io/table_stringency.png)
 
-
+![](/Users/jamesjordan/Desktop/jvj3.github.io/fig_death_beta.png)
