@@ -28,6 +28,64 @@ Another motivation to look into this topic was how COVID-19 has greatly effected
 
 
 # Data
+The data we utilized for our research included two large datasets, one from Oxford and one from Bloomberg. The data presented to us from Oxford was titles "Oxford COVID Government Response Variables". The dataset given to us from Bloomberg was a resiliency ranking that Bloomberg compiled of the top 53 ecoonomies in the world. We also utilized the Google COVID-19 Community Mobility Report to aid in our regression and analysis process.
+
+## Oxford
+
+Oxford's goal is to track COVID-19 policy data and compare each countrie's responses/policies. The data includes 180 countries, utilizing 23 indicators. Collection of the data began January 1st of 2020.
+```{r, warning = FALSE, echo=FALSE, message=FALSE}
+library(tidyverse)
+oxford <- "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv"
+
+oxford <- read_csv(oxford)
+oxford <- rename(oxford, country = CountryName)
+
+rmarkdown::paged_table(oxford)
+```
+
+### Inidicators
+There are a total of 21 live indicators in the dataset that are updated daily
+
+**Containment and Closure Policies:** C1-C8
+
+**Economic Policies:** E1-E4
+
+**Health System Policies:** H1-H8
+
+**Vaccine Policies:**: V1-V4
+
+## Policy Indices
+
+**Overall Government Response Index:** Calculated using ordinal indicators 
+
+**Containment and Health Index** Combines lockdown restricstions and closure measures with health and variables such as testing policy, contact tracing, etc. Calculated using all ordinal containment and closure policy indicators and health system policy indicators.
+
+**Stringency Index:** Measures the strictness of lockdown style. Calculated using all odrinal containment and closure policy indicators, plus an indicator recording public information campaigns
+
+**Economic Support Index:** Measures income support and debt relief. Calculated using all ordinal economic policy indicators.
+
+**Risk of Openness Index:** Based on the reccomendations set out by the World Health organization of measures that should be put in place before COVID-19 response policies can be safely relaxed
+
+### Calculation of Policy Indices
+
+Policy indices are averages of the individual component indicators
+
+## Bloomberg's Data 
+
+Bloomberg created resiliency rankings for the 53 largest economies in the world. A country's rank is based on their success of controlling the virus with the least amount of social economic disruptions.
+
+**Reopening Group:** Vaccine Doses per 100 people, Lockdown Severity, Flight Capacity, Vaccinated Travel Routes.
+
+**Covid Status Group:** 1-Month Cases per 100k, 3-Month Case Fatality Rate, and Deaths Per 1 Million.
+
+**Quality of Life Group:** Community Mobility, 2022 GDP Growth Forecast, Universal Healthcare Coverage, Human Development Index.
+
+### Ranking Mehthod
+
+Bloomberg used the "Max-Min" method where a score of 100 indicates the best performance, while 0 indicates the worst. The final score was then determined by averaging each country's performances across all 12 indicators with equal weight.
+
+
+
 
 
 
