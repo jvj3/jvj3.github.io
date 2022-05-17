@@ -164,7 +164,11 @@ Please not that all variables with the Flag suffix are used to account for diffe
 
 ## Clustering Analysis Results 
 
+Figure A
+
 ![](/Users/jamesjordan/Desktop/jvj3.github.io/clustering_pc.png)
+
+
 
 This is the result of clustering on the Bloomberg Data. The X axis is representative of PC1, and the Y axis is representative of PC2
 
@@ -179,14 +183,37 @@ Cluster 5 shows countries who had low vaccine doses per 100 and healthcare cover
 
 ### Reproduction Rate Results
 
+
+Figure B
+
+
+
 ![](/Users/jamesjordan/Desktop/jvj3.github.io/table_reproduction.png)
+
+
+
+Figure C
+
 
 
 ![](/Users/jamesjordan/Desktop/jvj3.github.io/fig_rep_beta.png)
 
+
+
 ## Death Per Capita Results
 
+
+
+Figure D
+
+
+
 ![](/Users/jamesjordan/Desktop/jvj3.github.io/table_stringency.png)
+
+
+
+Figure E
+
 
 ![](/Users/jamesjordan/Desktop/jvj3.github.io/fig_death_beta.png)
 
@@ -195,4 +222,4 @@ Cluster 5 shows countries who had low vaccine doses per 100 and healthcare cover
 
 
 ## Reproduction Rate 
-In order to model our data in the best way possible, we ran five different linear regression models using reproduction rate as out independent variable. Our explanatory variables are 1 week lagged values of various policies implemented throughout the pandemic using economic and health policy variables. The first column is a pooled OLS model, followed by a fixed effect model on day, then a fixed effect on country, then both country and date fixed effect, and finally both fixed effects and the use of Google’s mobility index By looking at the R-squared values of the regressions we ran on the reproduction rate, as we utilize fixed effects on date and country we are able to create a more explanatory model. It is also evident that including the mobility index makes our beta estimate more statistically significant. In the model with both daily and country fixed effets, along with with the google mobility index we are able to see that 54.8% of the variation in the reproduction rate can be explained by the varation with our independent variables. When looking at the INSERT GRAPH NAME HERE, it is important to keep in mind what the flagged variables are representative of. The flagged variables account for differences that are present in policy characteristics.
+In order to model our data in the best way possible, we ran five different linear regression models using reproduction rate as out independent variable. Our explanatory variables are 1 week lagged values of various policies implemented throughout the pandemic using economic and health policy variables. The first column is a pooled OLS model, followed by a fixed effect model on day, then a fixed effect on country, then both country and date fixed effect, and finally both fixed effects and the use of Google’s mobility index By looking at the R-squared values of the regressions we ran on the reproduction rate, as we utilize fixed effects on date and country we are able to create a more explanatory model. It is also evident that including the mobility index makes our beta estimate more statistically significant. In the model with both daily and country fixed effets, along with with the google mobility index we are able to see that 54.8% of the variation in the reproduction rate can be explained by the varation with our independent variables. When looking at the INSERT GRAPH NAME HERE, it is important to keep in mind what the flagged variables are representative of. The flagged variables account for differences that are present in policy characteristics. Viewing !!!!!these graphs!!!!, you can see that teh stringency index has a small magnitude, but is statstically significantly different from 0 and negative, meaning that it decreases the reproduction rate.
