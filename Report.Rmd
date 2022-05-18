@@ -5,7 +5,7 @@ output: html_document
 
 # Introduction
 
-For our project, we decided to research the effectiveness of Government COVID-19 policies throughout the pandemic. There were several motivations for wanting to look into this topic. First and foremost, this topic was presented to us by Manhattan College for the annual Business Analytics Competition that they host. For this competition we were tasked with looking into different data sets provided to us by Bloomberg and Oxford, and drawing conclusions from these datasets. The guiding questions that we were presented with are as follows:
+For our project, we decided to research the effectiveness of Government COVID-19 policies throughout the pandemic. There were several motivations for wanting to look into this topic. First and foremost, this topic was presented to us by Manhattan College for the annual Business Analytics Competition that they host. For this competition we were tasked with looking into different data sets provided to us by Bloomberg and Oxford, and draw conclusions from these datasets. The guiding questions that we were presented with are as follows:
 
 - What have we learned about facing the effects of a pandemic, globally?
 
@@ -135,7 +135,7 @@ DeathPerCapitait=β0+β1∗GovernmentPoliciesit+υi+λt+ϵit
 
 ϵt=Error Term
 
-
+ 
 
 
 
