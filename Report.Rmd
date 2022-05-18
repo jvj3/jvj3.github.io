@@ -125,6 +125,19 @@ ReproductionRateit=β0+β1∗GovernmentPoliciesit+υi+λt+ϵit
 
 ## Death per Capita Linear Regression
 
+DeathPerCapitait=β0+β1∗GovernmentPoliciesit+υi+λt+ϵit
+
+**Where:**
+
+υt=Country Fixed Effect
+
+λt=Daily Fixed Effect
+
+ϵt=Error Term
+
+
+
+
 
 ## Description of Government Policy Variables
 
